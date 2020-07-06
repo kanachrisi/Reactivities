@@ -13,3 +13,6 @@ dotnet ef migrations list -p Persistence/ -s API/
 dotnet ef migrations remove -p Persistence/ -s API/
 
 dotnet ef migrations add InitialCreate -p Persistence/ -s API/
+
+
+npx create-react-app client-app --use-npm --template typescript
