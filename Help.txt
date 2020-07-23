@@ -15,4 +15,7 @@ dotnet ef migrations remove -p Persistence/ -s API/
 dotnet ef migrations add InitialCreate -p Persistence/ -s API/
 
 
-npx create-react-app client-app --use-npm --template typescript
+npx create-react-app Client-App --use-npm --template typescript
+
+Application> dotnet add package MediatR --version 8.0.2
+API>dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
